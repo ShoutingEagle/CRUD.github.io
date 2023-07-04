@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management CRUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <h1>Student Management CRUD</h1>
+    
+   
+    
+        <div class="student-details">
+                <input type="text"    id="name"     placeholder="Name">
+                <input type="email"   id="email"    placeholder="Email" >
+                <input type="text"    id="gpa"      placeholder="GPA"   >
+        </div>
+        <div class="student-details">
+                <input type="number"  id="age"      placeholder="Age"   >
+                <input type="text"    id="degree"   placeholder="Degree">
+        </div>
+        
+        
+    
+        <div class="btn">
+                <button class="button" id="submit" onclick="addData()">Add Student</button>
+                <button class="button" id="update" onclick="addData()">Update</button>
+        </div>
+        <div class="search">
+                <input type="search"  id="search"   placeholder="Search by Name, Email or Degree">
+        </div>
+   
+
+    <table class="table" id="crudTable">
+        <thead class="head">
+            <tr class="details">
+                <th class="details-students">ID</th>
+                <th class="details-students">Student Name</th>
+                <th class="details-students">Email</th>
+                <th class="details-students">Age</th>
+                <th class="details-students">GPA</th>
+                <th class="details-students">Degree</th>
+                <th class="details-students">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+            <tr class="data" id="data">
+                <!-- <td class="data-students">100111</td>
+                <td class="data-students">Sameer Paul</td>
+                <td class="data-students">sameerpaul58@gmail.com</td>
+                <td class="data-students">22</td>
+                <td class="data-students">7.2</td>
+                <td class="data-students">B.Tech</td>
+                <td>
+                    <button>
+                        <span class="material-symbols-outlined">
+                        edit
+                        </span>
+                    </button>
+                    <button>
+                        <span class="material-symbols-outlined">
+                        delete
+                        </span>
+                    </button>
+                </td> -->
+            </tr> 
+        </tbody>
+    </table>
+<script src="script.js"></script>
+</body>
+</html>

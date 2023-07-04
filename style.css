@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin-inline:auto;
+    background-color: #111111;
+}
+
+h1{
+    padding: 10px 10px 10px 0;
+    color: seashell;
+}
+
+.student-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.student-details input{
+    width :28%;
+    height: 30px;
+    margin-right: 30px;
+    margin-bottom:10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.button {
+    width :35%;
+    height: 30px;
+    
+    color: seashell;
+    background-color: rgb(91, 162, 209);
+    border: 1px solid rgb(15, 169, 230);
+}
+
+#update{
+    display: none;
+}
+
+.search input{
+    width :89%;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(121, 209, 236, 0.315);
+    border: none;
+    color: seashell;
+}
+
+table{
+    width: 89%;
+    text-align: center;
+    border: 1px solid slateblue;
+    background-color: rgba(121, 209, 236, 0.315);
+}
+
+.details-students{
+    padding: 10px;
+    background-color: rgb(91, 162, 209);
+    color: seashell;
+}
+
+.data-students{
+    color: rgb(0, 153, 255);
+}
+
