@@ -12,13 +12,13 @@
    
     
         <div class="student-details">
-                <input type="text"    id="name"     placeholder="Name">
-                <input type="email"   id="email"    placeholder="Email" >
-                <input type="text"    id="gpa"      placeholder="GPA"   >
+                <input type="text"    id="name"     placeholder="  Name">
+                <input type="email"   id="email"    placeholder="  Email" >
+                <input type="text"    id="gpa"      placeholder="  GPA"   >
         </div>
         <div class="student-details">
-                <input type="number"  id="age"      placeholder="Age"   >
-                <input type="text"    id="degree"   placeholder="Degree">
+                <input type="number"  id="age"      placeholder="  Age"   >
+                <input type="text"    id="degree"   placeholder="  Degree">
         </div>
         
         
@@ -28,11 +28,11 @@
                 <button class="button" id="update" onclick="addData()">Update</button>
         </div>
         <div class="search">
-                <input type="search"  id="search"   placeholder="Search by Name, Email or Degree">
+                <input type="search"  id="search"   placeholder="  Search by Name, Email or Degree" onkeyup="search()">
         </div>
    
 
-    <table class="table" id="crudTable">
+    <table class="table" id="crudTable" style="border: collapse;">
         <thead class="head">
             <tr class="details">
                 <th class="details-students">ID</th>
@@ -45,7 +45,7 @@
             </tr>
         </thead>
         <tbody id="body">
-            <tr class="data" id="data">
+            <!-- <tr class="data" id="data"> -->
                 <!-- <td class="data-students">100111</td>
                 <td class="data-students">Sameer Paul</td>
                 <td class="data-students">sameerpaul58@gmail.com</td>
@@ -64,7 +64,7 @@
                         </span>
                     </button>
                 </td> -->
-            </tr> 
+            <!-- </tr>  -->
         </tbody>
     </table>
 <script src="script.js"></script>
