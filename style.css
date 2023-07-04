@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +9,7 @@ body{
     max-width: 1200px;
     margin-inline:auto;
     background-color: #111111;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -20,6 +22,11 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+input{
+    padding-left: 10px;
+}
+
 
 .student-details input{
     width :28%;
@@ -50,26 +57,41 @@ h1{
     width :89%;
     height: 40px;
     margin-bottom: 30px;
-    font-size: 14px;
-    background-color: rgba(121, 209, 236, 0.315);
+    font-size: 18px;
     border: none;
-    color: seashell;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
 }
 
 table{
     width: 89%;
     text-align: center;
-    border: 1px solid slateblue;
-    background-color: rgba(121, 209, 236, 0.315);
+    border: none;
+    background-color: #111111;
+    color: seashell;
+    
 }
 
 .details-students{
     padding: 10px;
-    background-color: rgb(91, 162, 209);
+    background-color: #111111;
     color: seashell;
+    border: 1px solid rgb(53, 53, 53); 
 }
 
-.data-students{
-    color: rgb(0, 153, 255);
+#body tr {
+    height: 50px;
 }
 
+
+.edit-button{
+    background-color: #111111;
+    border: none;
+    color: rgb(0, 217, 255);
+}
+
+.delete-button{
+    background-color: #111111;
+    border: none;
+    color: rgb(255, 0, 106);
+}
